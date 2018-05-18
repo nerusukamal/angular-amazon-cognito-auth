@@ -56,6 +56,10 @@ $ ng serve
 /src/environments/environment.prod.ts
 ```
 
+### URL to launch
+
+http://localhost:4200
+
 
 License
 ----
