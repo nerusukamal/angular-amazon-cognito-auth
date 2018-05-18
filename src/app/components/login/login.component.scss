@@ -1,0 +1,19 @@
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(236, 236, 236);
+    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    @media only screen and (min-width: 1224px) {
+      margin-top: 120px;
+    }
+
+    .content-fit {
+      width: 100%;
+    }
+  }
+}

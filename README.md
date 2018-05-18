@@ -1,27 +1,54 @@
-# AuthAngCognito
+# Amazon Cognito Authentication with Angular 5
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+# Features Used!
 
-## Development server
+  - Angular Material Design
+  - Bootstrap 4
+  - Angular Reactive forms
+  - Amazon cognito plugin integration
+  - Observables
+  - Anuglar Router
+  - Routing Guards
+  - Pollifills
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Challenges:
+  - Support of amazon amplify plugin integration with angular 5
+  - Added typings and polyfills to make use of plugin
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Technologies Used
 
-## Build
+* Anuglar 5
+* Typescript
+* SASS
+* Bootstrap 4
+* Material Design
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Installation
 
-## Running unit tests
+App requires below tools to be installed
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. [Node.js](https://nodejs.org/) v8 or plus to run.
+2. git
 
-## Running end-to-end tests
+After Node JS installation, open the command Prompy then install the angular CLI with below command
+```sh
+npm install -g @angular/cli
+```
+On successfull git installation, clone the repo from the below command to any path
+```sh
+git clone https://github.com/dineshkumarreddyr/angular-amazon-cognito-auth.git
+```
+Then, Install the dependencies and devDependencies.
+```sh
+$ npm install
+$ ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Plugins
+* https://github.com/aws/aws-amplify/tree/master/packages/amazon-cognito-identity-js
 
-## Further help
+License
+----
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT
