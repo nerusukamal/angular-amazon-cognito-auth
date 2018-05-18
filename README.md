@@ -41,12 +41,21 @@ git clone https://github.com/dineshkumarreddyr/angular-amazon-cognito-auth.git
 ```
 Then, Install the dependencies and devDependencies.
 ```sh
+$ ng angular-amazon-cognito-auth
 $ npm install
 $ ng serve
 ```
 
 ### Plugins
 * https://github.com/aws/aws-amplify/tree/master/packages/amazon-cognito-identity-js
+
+### Amazon amplify client Id and userpool Id
+
+```sh
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+```
+
 
 License
 ----
